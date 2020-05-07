@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#griglia {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+.quadrato {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
